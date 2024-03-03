@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    border: 1rem solid rgb(56, 23, 201);
+    height: 50vh;
+    width: 30vw;
+}
+.Quotes{
+    /* border: 1px dotted gray; */
+    margin-top: 2rem;
+    height:7rem;
+    width: 40vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.author{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    float: right;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    width: 8rem;
+    height: 3rem;
+}
+.btn button{
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: blue;
+    position: fixed;
+}
