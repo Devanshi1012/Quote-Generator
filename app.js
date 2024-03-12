@@ -2,8 +2,6 @@ const URL = "https://quote-garden.onrender.com/api/v3/quotes";
 const Quotes = document.querySelector(".Quotes");
 const author = document.querySelector(".Author")
 const btn = document.querySelector("#get");
-// let promise = fetch(URL);
-// console.log(promise);
 const getQuotes = async()=>{
     let response = await fetch(URL);
     // console.log(response);
