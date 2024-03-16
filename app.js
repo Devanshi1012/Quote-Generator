@@ -6,7 +6,6 @@ const getQuotes = async()=>{
     let response = await fetch(URL);
     // console.log(response);
     let data = await response.json();//readable format
-    // console.log(data);
     // console.log(data.data[1].
     //     quoteText);
     const randomIndex = Math.floor(Math.random() * data.data.length);
